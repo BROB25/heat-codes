@@ -683,8 +683,9 @@ h2 {
  }
 
  .home__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 15rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-top: 5rem;
  }
 
@@ -710,8 +711,9 @@ h2 {
  }
 
  .services__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 15rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-top: 5rem;
   margin: -3rem auto;
  }
@@ -765,8 +767,9 @@ h2 {
  }
 
  .portfolio__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 15rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-top: 5rem;
  }
 
@@ -831,6 +834,12 @@ h2 {
     font-size: 1.1rem;
    }
 
+   .home__button button {
+    width: 15rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+   }
+
    .home__container p {
     max-width: 75%;
     margin: 1rem auto;
@@ -863,7 +872,15 @@ h2 {
     max-width: 65%;
     margin: 3rem auto;
     margin-top: 4rem;
-   }
+  }
+
+  .services__button button {
+    width: 15rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin: -3rem auto;
+  }
 
   .portfolio__header {
     margin-top: -5rem;
@@ -902,6 +919,13 @@ h2 {
     width: 90%;
     margin: 0 auto;
   }
+
+  .portfolio__button button {
+    width: 15rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 5rem;
+   }
 
   .about__header {
     margin-top: -5rem;
