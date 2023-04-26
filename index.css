@@ -717,8 +717,9 @@ h2 {
  }
 
  .swiper.mySwiper {
-  max-width: 75%;
-  margin: 3rem auto;
+  max-width: 65%;
+  margin: 4rem auto;
+  margin-top: 4rem;
 }
 
  /* OG layout
@@ -861,6 +862,7 @@ h2 {
   .swiper.mySwiper {
     max-width: 65%;
     margin: 3rem auto;
+    margin-top: 4rem;
    }
 
   .portfolio__header {
