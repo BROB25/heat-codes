@@ -378,6 +378,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  text-align: center;
   font-size: 22px;
   font-weight: bold;
   color: #fff;
@@ -388,6 +389,14 @@ h2 {
   text-align: center;
   justify-content: center;
   align-items: center;
+  font-size: 1.1rem;
+}
+
+.swiper-slide h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
 .swiper-slide:nth-child(1n) {
