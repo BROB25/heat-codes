@@ -723,8 +723,7 @@ h2 {
   width: 15rem;
   font-size: 1.3rem;
   font-weight: 600;
-  margin-top: 5rem;
-  margin: -3rem auto;
+  margin: 5rem auto -3rem;
  }
 
  .swiper.mySwiper {
