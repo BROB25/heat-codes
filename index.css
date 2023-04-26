@@ -312,7 +312,9 @@ h2 {
 }
 
 .home__button button {
-  width: 10rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -403,7 +405,9 @@ h2 {
 }
 
 .services__button button {
-  width: 10rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -467,7 +471,9 @@ h2 {
 }
 
 .portfolio__button button {
-  width: 9.7rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -623,7 +629,9 @@ h2 {
 }
 
 .form__button {
-  width: 9rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   padding: .7rem;
   border-radius: .4rem;
   margin: 0 auto;
@@ -683,8 +691,9 @@ h2 {
  }
 
  .home__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   margin-top: 5rem;
  }
 
@@ -710,8 +719,9 @@ h2 {
  }
 
  .services__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-weight: 600;
   margin-top: 5rem;
   margin: -3rem auto;
  }
@@ -765,8 +775,8 @@ h2 {
  }
 
  .portfolio__button button {
-  width: 10rem;
-  font-size: 0.9rem;
+  width: 12rem;
+  font-size: 1rem;
   margin-top: 5rem;
  }
 
