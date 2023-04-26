@@ -718,8 +718,8 @@ h2 {
 
  .swiper.mySwiper {
   max-width: 75%;
-  margin: 0 auto;
- }
+  margin: 3rem auto;
+}
 
  /* OG layout
  .portfolio__container {
