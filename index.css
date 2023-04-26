@@ -663,6 +663,12 @@ h2 {
  .header {
   display: none;
  }
+
+ button {
+  width: 18rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+ }
  
  main {
   margin: 0 1.4rem;
@@ -688,13 +694,6 @@ h2 {
  .home__content img {
   width: 100%;
   margin: 0 auto;
- }
-
- .home__button button {
-  width: 15rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-top: 5rem;
  }
 
  .gradient {
