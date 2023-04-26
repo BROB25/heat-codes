@@ -669,6 +669,12 @@ h2 {
   font-size: 1.6rem;
   font-weight: 600;
  }
+
+ .form__button button {
+  width: 18rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+ }
  
  main {
   margin: 0 1.4rem;
@@ -838,6 +844,12 @@ h2 {
 
    p {
     font-size: 1.1rem;
+   }
+
+   .form__button button {
+    width: 18rem;
+    font-size: 1.6rem;
+    font-weight: 600;
    }
 
    .home__container p {
