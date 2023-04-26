@@ -703,7 +703,7 @@ h2 {
  }
 
  .services__container {
-  margin: 4rem auto;
+  margin: 4rem auto 6rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -714,7 +714,8 @@ h2 {
  }
 
  .services__content-img {
-  width: 100%;
+  width: 90%;
+  height: 80%;
   margin: 0 auto;
   justify-content: center;
  }
@@ -859,7 +860,7 @@ h2 {
    }
 
   .services__container {
-    margin: 0 auto;
+    margin: 4rem auto 6rem;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -875,6 +876,13 @@ h2 {
     width: 100%;
     height: 340px;
   }
+
+  .services__content-img {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    justify-content: center;
+   }
 
   .swiper.mySwiper {
     max-width: 65%;
