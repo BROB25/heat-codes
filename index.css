@@ -338,7 +338,8 @@ h2 {
 
 .contact-info {
   display: flex;
-  max-width: 75%;
+  flex-direction: row;
+  max-width: 100%;
   margin: 1rem auto 0;
   flex-wrap: wrap;
   justify-content: center;
@@ -346,10 +347,11 @@ h2 {
 
 .info {
   flex: 1 1;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .info p {
