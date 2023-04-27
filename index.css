@@ -737,7 +737,7 @@ h2 {
 
  .contact-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   max-width: 100%;
   margin: 1rem auto 0;
   flex-wrap: wrap;
@@ -757,11 +757,7 @@ h2 {
   margin-right: 0.4rem;
 }
 
-.contact-info .info p {
-  margin: 0 auto;
-  font-size: 0.8rem;
-  text-decoration: none;
-}
+
  /* #darkMode-icon {
   right: 1rem;
  } */
