@@ -18,7 +18,7 @@ a {
 
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 main {
@@ -300,7 +300,7 @@ h2 {
 }
 
 .social-media a {
-  font-size: 1.65rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: #454545;
   transition: 0.6s ease;
@@ -679,7 +679,7 @@ h2 {
  }
 
  * {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
  }
 
  .home__content span {
@@ -687,7 +687,7 @@ h2 {
  }
 
  .social-media a i {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
  }
 
  .home__content p {
@@ -847,7 +847,7 @@ h2 {
    }
 
    p {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
    }
 
    .home__button button {
