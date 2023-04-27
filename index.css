@@ -336,7 +336,7 @@ h2 {
 
 .services__header-h2 {
   display: flex;
-  margin: 10rem auto .5rem;
+  margin: 10rem auto 3rem;
 }
 
 .services__container {
@@ -876,7 +876,7 @@ h2 {
   }
 
   .services__header-h2 {
-    margin: 8.5rem auto 2rem;
+    margin: 8.5rem auto 3rem;
   }
   
   .services__container img {
