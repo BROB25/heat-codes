@@ -672,12 +672,12 @@ h2 {
 }
 
 .form__button {
-  width: 9rem;
+  width: 10rem;
   padding: .7rem;
-  border-radius: .4rem;
+  border-radius: 0;
   margin: 0 auto;
   background-color: var(--main-color);
-  color: var(--text-color);
+  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
