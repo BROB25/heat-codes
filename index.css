@@ -352,8 +352,9 @@ h2 {
   align-items: center;
 }
 
-.info h3 {
+.info p {
   font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .info i {
