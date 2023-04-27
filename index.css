@@ -19,6 +19,7 @@ a {
 
 p {
   font-size: 1.05rem;
+  color: var(--text-color);
 }
 
 main {
@@ -31,7 +32,7 @@ button {
   border-radius: .4rem;
   margin: 0 auto;
   background-color: var(--main-color);
-  color: var(--text-color);
+  color: var(--bg-color);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -62,8 +63,9 @@ body {
 
 :root {
   --bg-color: white;
-  --text-color: #fff;
+  --text-color: #080707;
   --main-color: #c72020;
+  --orange-color: #F75D0A;
   --gradient-color: radial-gradient(circle at 8% 64%, #C72020 27%, #F75D0A 68%); 
 }
 
@@ -107,6 +109,25 @@ h2 {
   color: #454545;
   display: none;
   margin-left: auto;
+}
+
+#darkMode-icon {
+  position: absolute;
+  right: 1rem;
+  font-size: 2rem;
+  color: #3b08a1;
+  margin-bottom: .1rem;
+}
+
+.dark-mode {
+  --bg-color: #1a1a1a;
+  color: #F75D0A;
+  --text-color: #fff;
+  --shadow-color: rgba(0,0,0,0.7);
+}
+
+.dark-mode #darkMode-icon {
+  color: gold;
 }
 
 .navbar {
@@ -196,9 +217,10 @@ h2 {
   width: 25px;
   height: 3px;
   margin: 5px auto;
+  font-weight: 600;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: var(--main-color);
 }
 
 .nav-menu {
@@ -302,7 +324,7 @@ h2 {
 .social-media a {
   font-size: 1.85rem;
   font-weight: 700;
-  color: #454545;
+  color: var(--orange-color);
   transition: 0.6s ease;
 }
 
@@ -438,12 +460,12 @@ h2 {
 /* PORTFOLIO */
 .portfolio__header {
   display: flex;
-  margin: 0 auto;
+  margin: 4.5rem auto 2rem;
 }
 
 .portfolio__header-h2 {
   display: flex;
-  margin: 3rem auto 3rem;
+  margin: 4.5rem auto 3rem;
 }
 
 .portfolio__container {
@@ -682,6 +704,10 @@ h2 {
  .header {
   display: none;
  }
+
+ #darkMode-icon {
+  right: 1rem;
+ }
  
  main {
   margin: 0 1.4rem;
@@ -915,7 +941,7 @@ h2 {
   }
 
   .portfolio__header {
-    margin-top: -5rem;
+    margin-top: 4.5rem;
   }
 
   .portfolio__header .gradient {
@@ -1078,7 +1104,6 @@ h2 {
     margin: 0 auto;
   }
 
-  .portfolio__header,
   .about__header,
   .contact__header {
     margin-top: -5rem;
@@ -1140,7 +1165,6 @@ h2 {
     margin: 0 auto;
   }
 
-  .portfolio__header,
   .about__header,
   .contact__header {
     margin-top: -5rem;
