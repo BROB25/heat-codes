@@ -312,7 +312,7 @@ h2 {
 }
 
 .home__button button {
-  width: 10rem;
+  width: 8rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -419,7 +419,7 @@ h2 {
 }
 
 .services__button button {
-  width: 10rem;
+  width: 8rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -484,7 +484,7 @@ h2 {
 }
 
 .portfolio__button button {
-  width: 9.7rem;
+  width: 8rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -635,6 +635,8 @@ h2 {
 }
 
 .contact form .btn {
+  width: 8rem;
+  padding: .7rem;
   margin-top: 2rem;
   cursor: pointer;
 }
@@ -700,7 +702,7 @@ h2 {
  }
 
  .home__button button {
-  width: 15rem;
+  width: 10rem;
   font-size: 1.3rem;
   font-weight: 600;
   margin-top: 5rem;
@@ -728,7 +730,7 @@ h2 {
  }
 
  .services__button button {
-  width: 15rem;
+  width: 10rem;
   font-size: 1.3rem;
   font-weight: 600;
   margin: 4rem auto;
@@ -783,8 +785,8 @@ h2 {
  }
 
  .portfolio__button button {
-  width: 15rem;
-  font-size: 1.3rem;
+  width: 10rem;
+  /* font-size: 1.3rem; */
   font-weight: 600;
   margin-top: 5rem;
  }
@@ -851,8 +853,8 @@ h2 {
    }
 
    .home__button button {
-    width: 15rem;
-    font-size: 1.3rem;
+    width: 10rem;
+    /* font-size: 1.3rem; */
     font-weight: 600;
    }
 
@@ -897,8 +899,8 @@ h2 {
   }
 
   .services__button button {
-    width: 15rem;
-    font-size: 1.3rem;
+    width: 10rem;
+    /* font-size: 1.3rem; */
     font-weight: 600;
     margin-top: 5rem;
     margin: -3rem auto;
@@ -943,8 +945,8 @@ h2 {
   }
 
   .portfolio__button button {
-    width: 15rem;
-    font-size: 1.3rem;
+    width: 10rem;
+    /* font-size: 1.3rem; */
     font-weight: 600;
     margin-top: 5rem;
    }
