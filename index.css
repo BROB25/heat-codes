@@ -112,10 +112,10 @@ h2 {
 }
 
 #darkMode-icon {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #3b08a1;
   margin-bottom: .1rem;
 }
