@@ -362,7 +362,6 @@ h2 {
 .info i {
   font-size: 1.4rem;
   margin-right: 1rem;
-  margin-left: 1rem;
   color: gold;
 }
 
@@ -761,6 +760,8 @@ h2 {
 
 .contact-info .info p {
   margin: 0 auto;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
  /* #darkMode-icon {
   right: 1rem;
