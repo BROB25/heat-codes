@@ -131,6 +131,10 @@ h2 {
   color: gold;
 }
 
+.dark-mode .mobile__navbar {
+  background-color: #1a1a1a;
+}
+
 .navbar {
   display: flex;
   flex-direction: column;
@@ -149,6 +153,10 @@ h2 {
   background: transparent;
   /* padding-right: .2rem;
   padding-left: .4rem; */
+}
+
+.header .navbar {
+  background-color: var(--bg-color);
 }
 
 .navbar a {
@@ -205,6 +213,10 @@ h2 {
   align-items: center;
   padding: 0.7rem 1.5rem;
   /* box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.mobile__header .mobile__navbar {
+  background-color: var(--bg-color);
 }
 
 .hamburger {
@@ -1241,7 +1253,7 @@ h2 {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: var(--bg-color);
     width: 100%;
     border-radius: 10px;
     text-align: center;
