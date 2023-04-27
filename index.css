@@ -354,14 +354,12 @@ h2 {
   text-decoration: none;
 }
 
-.info p {
-  font-size: 0.8rem;
-  font-weight: 400;
-  text-decoration: none;
+.info h4 {
+  margin-right: 0.5rem;
 }
 
 .info i {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 1rem;
   color: gold;
 }
