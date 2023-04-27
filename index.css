@@ -114,7 +114,7 @@ h2 {
 #darkMode-icon {
   position: absolute;
   right: 1rem;
-  top: 2rem;
+  top: 1rem;
   font-size: 2rem;
   color: #3b08a1;
   margin-bottom: .1rem;
@@ -482,7 +482,6 @@ h2 {
 
 .portfolio__video video {
   width: 100%;
-  height: 310px;
 }
 
 .portfolio__video {
@@ -803,7 +802,6 @@ h2 {
 #video1 {
   order: 2;
   text-align: center;
-  margin-bottom: 1rem;
   width: 90%;
 }
 
@@ -966,7 +964,6 @@ h2 {
   #video1 {
     order: 2;
     text-align: center;
-    margin-bottom: 1rem;
     width: 90%;
   }
 
