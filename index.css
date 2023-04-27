@@ -403,7 +403,7 @@ h2 {
 .swiper-slide i {
   position: absolute;
   right: 6px;
-  bottom: 8px;
+  bottom: 10px;
 }
 
 .swiper-slide:nth-child(1n) {
@@ -439,7 +439,7 @@ h2 {
 
 .portfolio__header-h2 {
   display: flex;
-  margin: 15rem auto .5rem;
+  margin: 15rem auto 3rem;
 }
 
 .portfolio__container {
@@ -453,7 +453,7 @@ h2 {
 
 .portfolio__video video {
   width: 100%;
-  height: 100%;
+  height: 310px;
 }
 
 .portfolio__video {
@@ -463,6 +463,7 @@ h2 {
 
 .portfolio__video:hover video {
   opacity: 0.3;
+  transform: scale(1.1);
 }
 
 .title {
@@ -710,7 +711,7 @@ h2 {
  }
 
  .services__container {
-  margin: 4rem auto 6rem;
+  margin: -2rem auto 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -734,9 +735,9 @@ h2 {
  }
 
  .swiper.mySwiper {
-  max-width: 65%;
-  margin: 4rem auto;
-  margin-top: 4rem;
+  max-width: 85%;
+  margin: 2rem auto;
+  margin-top: 2rem;
 }
 
  /* OG layout
@@ -890,9 +891,9 @@ h2 {
    }
 
   .swiper.mySwiper {
-    max-width: 65%;
-    margin: 3rem auto;
-    margin-top: 4rem;
+    max-width: 85%;
+    margin: 2rem auto;
+    margin-top: 2rem;
   }
 
   .services__button button {
