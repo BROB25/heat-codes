@@ -54,3 +54,8 @@ darkModeIcon.onclick = () => {
   darkModeIcon.classList.toggle('bx-sun');
   document.body.classList.toggle('dark-mode');
 }
+
+window.addEventListener('beforeunload', () => {
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+});
