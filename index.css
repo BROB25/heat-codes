@@ -313,6 +313,8 @@ h2 {
 
 .home__button button {
   width: 8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -420,6 +422,8 @@ h2 {
 
 .services__button button {
   width: 8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -485,6 +489,8 @@ h2 {
 
 .portfolio__button button {
   width: 8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -636,6 +642,8 @@ h2 {
 
 .contact form .btn {
   width: 8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   padding: .7rem;
   margin-top: 2rem;
   cursor: pointer;
@@ -651,7 +659,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.3rem;
   outline: none;
   border: none;
   cursor: pointer;
@@ -689,7 +697,7 @@ h2 {
  }
 
  .social-media a i {
-  font-size: 1.9rem;
+  font-size: 2rem;
  }
 
  .home__content p {
@@ -703,7 +711,7 @@ h2 {
 
  .home__button button {
   width: 10rem;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   font-weight: 600;
   margin-top: 5rem;
  }
@@ -731,7 +739,7 @@ h2 {
 
  .services__button button {
   width: 10rem;
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   font-weight: 600;
   margin: 4rem auto;
  }
