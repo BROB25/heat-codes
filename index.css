@@ -114,6 +114,7 @@ h2 {
 #darkMode-icon {
   position: absolute;
   right: 1rem;
+  top: 2rem;
   font-size: 2rem;
   color: #3b08a1;
   margin-bottom: .1rem;
@@ -209,6 +210,8 @@ h2 {
 .hamburger {
   display: none;
   position: fixed;
+  top: 1rem;
+  left: 1rem;
   z-index: 11;
 }
 
