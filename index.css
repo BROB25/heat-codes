@@ -715,15 +715,11 @@ h2 {
 
  .services__content-img {
   width: 90%;
-  height: 81%;
+  height: 90%;
   margin: 0 auto;
   justify-content: center;
  }
-
- .services__content-img:hover {
-  transform: scale(1.1);
- }
-
+ 
  .services__button button {
   width: 15rem;
   font-size: 1.3rem;
@@ -883,13 +879,9 @@ h2 {
 
   .services__content-img {
     width: 90%;
-    height: 80%;
+    height: 90%;
     margin: 0 auto;
     justify-content: center;
-   }
-
-   .services__content-img:hover {
-    transform: scale(1.1);
    }
 
   .swiper.mySwiper {
