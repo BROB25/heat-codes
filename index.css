@@ -458,7 +458,7 @@ h2 {
 
 .services__header-h2 {
   display: flex;
-  margin: 10rem auto 3rem;
+  margin: 6rem auto;
 }
 
 .services__container {
@@ -513,7 +513,7 @@ h2 {
   text-align: left;
   margin-left: 1rem;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 .swiper-slide p {
@@ -584,7 +584,7 @@ h2 {
 /* PORTFOLIO */
 .portfolio__header {
   display: flex;
-  margin: 4.5rem auto 2rem;
+  margin: 4.5rem auto;
 }
 
 .portfolio__header-h2 {
@@ -603,6 +603,7 @@ h2 {
 
 .portfolio__video video {
   width: 100%;
+  height: auto;
 }
 
 .portfolio__video {
@@ -826,13 +827,13 @@ h2 {
 @media screen and (max-width: 480px) {
  #first-vid {
   width: 100%;
-  height: 250px;
+  height: auto;
   object-fit: contain;
  }
 
  #second-vid {
   width: 100%;
-  height: 250px;
+  height: auto;
   object-fit: contain;
  }
  
