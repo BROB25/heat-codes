@@ -513,7 +513,7 @@ h2 {
   text-align: left;
   margin-left: 1rem;
   font-size: 0.9rem;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .swiper-slide p {
@@ -542,13 +542,16 @@ h2 {
   font-size: 1.05rem;
   font-style: italic;
   margin-right: 0.5rem;
-  color: #fff;
+  color: var(--orange-color);
+  font-weight: 600;
 }
 
 .swiper-slide i {
   position: relative;
   right: 0;
   bottom: 0;
+  color: var(--orange-color);
+  font-weight: 600;
 }
 
 .swiper-slide:nth-child(1n) {
