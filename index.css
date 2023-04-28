@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -121,9 +122,9 @@ h2 {
 }
 
 #darkMode-icon {
-  position: absolute;
+  /* position: absolute;
   top: 0.2rem;
-  right: 0.8rem;
+  right: 0.8rem; */
   font-size: 1.8rem;
   color: #3b08a1;
   margin-bottom: .1rem;
@@ -193,8 +194,8 @@ h2 {
   font-size: .8rem;
   font-weight: 600;
   text-align: center;
-  background-color: #454545;
-  color: var(--text-color);
+  background-color: black;
+  color: #fff;
   opacity: 0;
   padding: .4rem;
   z-index: -900;
@@ -211,17 +212,37 @@ h2 {
 }
 
 .mobile__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-top: 1rem;
   position: relative;
   z-index: 10;
 }
 
 .mobile__navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 1.5rem;
   /* box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.mobile__navbar i {
+  color: gold;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: transparent;
+  border: 2.5px solid gray;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.mobile__navbar i:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.4);
 }
 
 .mobile__header .mobile__navbar {
@@ -230,9 +251,9 @@ h2 {
 
 .hamburger {
   display: none;
-  position: fixed;
+  /* position: fixed;
   top: 1rem;
-  left: 1rem;
+  left: 1rem; */
   z-index: 11;
 }
 
