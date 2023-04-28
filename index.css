@@ -512,17 +512,17 @@ h2 {
   list-style-type: disc;
   text-align: left;
   margin-left: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   color: var(--text-color);
 }
 
 .swiper-slide p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .swiper-slide h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 2rem;
   text-align: center;
@@ -586,7 +586,7 @@ h2 {
 /* PORTFOLIO */
 .portfolio__header {
   display: flex;
-  margin: 4.5rem auto;
+  margin: 4.5rem auto 3rem;
 }
 
 .portfolio__header-h2 {
@@ -653,7 +653,7 @@ h2 {
 
 .about__header-h2 {
   display: flex;
-  margin: 15rem auto .5rem;
+  margin: 14rem auto 2rem;
 }
 
 .about__container {
@@ -732,7 +732,7 @@ h2 {
 
 .contact__header-h2 {
   display: flex;
-  margin: 15rem auto .5rem;
+  margin: 10rem auto 5rem;
 }
 
 .contact__container {
