@@ -505,6 +505,7 @@ h2 {
   font-weight: bold;
   color: #fff;
   padding: 2.5rem 1.5rem;
+  position: relative;
 }
 
 .swiper-slide li {
@@ -516,10 +517,7 @@ h2 {
 }
 
 .swiper-slide p {
-  justify-content: center;
-  align-items: center;
   font-size: 0.9rem;
-  margin-bottom: 1.5rem;
 }
 
 .swiper-slide h3 {
@@ -530,10 +528,27 @@ h2 {
   text-decoration: underline;
 }
 
-.swiper-slide i {
+.swiper-slide-swipe {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
-  right: 6px;
-  bottom: 10px;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.swiper-slide .swiper-slide-swipe p {
+  font-size: 1.05rem;
+  font-style: italic;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.swiper-slide i {
+  position: relative;
+  right: 0;
+  bottom: 0;
 }
 
 .swiper-slide:nth-child(1n) {
