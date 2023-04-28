@@ -509,6 +509,7 @@ h2 {
 
 .swiper-slide li {
   list-style-type: disc;
+  text-align: left;
   font-size: 0.9rem;
   line-height: 1.4rem;
 }
