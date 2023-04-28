@@ -243,7 +243,7 @@ h2 {
 }
 
 .mobile__navbar i {
-  color: gold;
+  color: var(--orange-color);
   font-size: 1.2rem;
   font-weight: 600;
   background: transparent;
@@ -514,6 +514,7 @@ h2 {
   margin-left: 1rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
+  color: var(--text-color);
 }
 
 .swiper-slide p {
@@ -526,6 +527,7 @@ h2 {
   margin-bottom: 2rem;
   text-align: center;
   text-decoration: underline;
+  color: #f2f3f5;
 }
 
 .swiper-slide-swipe {
