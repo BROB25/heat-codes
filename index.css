@@ -264,7 +264,7 @@ h2 {
 .hamburger {
   /* display: none; */
   position: fixed;
-  left: 2rem;
+  left: 10%;
   top: 2px;
   z-index: 9999;
 }
@@ -344,7 +344,7 @@ h2 {
 }
 
 .home__content .scroller span {
-  background: #F75D0A;
+  background: var(--main-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -352,6 +352,7 @@ h2 {
   position: absolute;
   top: 0;
   animation: slide 5.1s linear infinite 2s;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
