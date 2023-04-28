@@ -287,7 +287,7 @@ h2 {
 .home__container p {
   margin: 1.5rem auto 1rem;
   line-height: 2rem;
-  width: 80%;
+  width: 100%;
 }
 
 .scroller {
@@ -604,7 +604,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   line-height: 2rem;
-  width: 90%;
+  width: 100%;
   margin: 2rem auto;
 }
 
@@ -869,7 +869,7 @@ h2 {
  }
  
 .portfolio__video {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   order: 1;
 }
@@ -877,7 +877,7 @@ h2 {
 #video1 {
   order: 2;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -887,7 +887,7 @@ h2 {
 
 .portfolio__video:nth-of-type(2) ~ .portfolio__video-description {
   order: 4;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
  .portfolio__header-h2 .gradient {
