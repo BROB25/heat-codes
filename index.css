@@ -265,6 +265,7 @@ h2 {
   /* display: none; */
   position: fixed;
   left: 10%;
+  top: 2px;
   z-index: 9999;
 }
 
