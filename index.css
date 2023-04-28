@@ -808,6 +808,10 @@ h2 {
   font-size: 3rem;
  }
 
+ .home__content .gradient__text {
+  font-size: 1.25rem;
+ }
+
  .social-media a i {
   font-size: 2rem;
  }
