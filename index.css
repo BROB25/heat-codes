@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +62,7 @@ body {
 } */
 
 :root {
-  --bg-color: white;
+  --bg-color: #dadada;
   --text-color: #080707;
   --main-color: #c72020;
   --orange-color: #F75D0A;
@@ -121,12 +120,8 @@ h2 {
 }
 
 #darkMode-icon {
-  /* position: absolute;
-  top: 0.2rem;
-  right: 0.8rem; */
   font-size: 1.9rem;
   color: #3b08a1;
-  /* margin-bottom: .1rem; */
 }
 
 .dark-mode {
