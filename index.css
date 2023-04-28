@@ -251,9 +251,7 @@ h2 {
 
 .hamburger {
   display: none;
-  /* position: fixed;
-  top: 1rem;
-  left: 1rem; */
+  position: fixed;
   z-index: 11;
 }
 
